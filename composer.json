@@ -1,0 +1,30 @@
+{
+    "name": "dasha/amoCRM",
+    "authors": [
+        {
+            "name": "Darishka",
+            "email": "dashakanevskaya93@gmail.com"
+        }
+    ],
+    "require": {
+        "wp-cli/php-cli-tools": "^0.11.8"
+    },
+    "require-dev": {
+        "squizlabs/php_codesniffer": "3.*"
+    },
+    "scripts": {
+      "phpcs": "phpcs"
+    },
+    "bin": [
+      "bin/amo-auth",
+      "bin/amo-tasks"
+    ],
+    "autoload": {
+        "files": [
+            "src/AmoCRM/Auth.php",
+            "src/AmoCRM/Tasks.php",
+            "src/AmoCRM/Helper.php",
+            "src/Curl.php"
+        ]
+    }
+}
