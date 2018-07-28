@@ -1,0 +1,4 @@
+/vendor/
+.idea/
+/src/cookie.txt
+/src/storage.txt

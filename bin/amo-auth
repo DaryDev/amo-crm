@@ -1,0 +1,9 @@
+#!/usr/bin/env php
+
+<?php
+$autoloadPath = __DIR__ . '/../vendor/autoload.php';
+require_once $autoloadPath;
+
+use function AmoCRM\Auth\run;
+
+run();
